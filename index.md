@@ -1,6 +1,7 @@
 ---
 layout: home
-author_profile: true
+header:
+  image: /assets/images/home-header.jpg
 ---
 ## Welcome to GitHub Pages
 
