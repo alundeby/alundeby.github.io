@@ -37,13 +37,7 @@ feature_row:
   - image_path: /assets/images/IMG_6579.JPG
     title: "Server Rack"
     excerpt: "Server and networking gear."
-feature_row_1:
-  - image_path: /assets/images/IMG_4373.JPG
-    title: "Touchscreen"
-    excerpt: "Programmable touchscreen for microcontroller projects."
-  - image_path: /assets/images/IMG_3781.JPG
-    title: "No idea"
-    excerpt: "Fire hose connection hub at Red Rocks"
+
 ---
 ## Welcome to GitHub Pages
 
