@@ -1,7 +1,9 @@
 ---
 layout: splash
+
 header:
   image: /assets/images/home-header.jpg
+  
 gallery:
   - url: /assets/images/IMG_3889.JPG
     image_path: /assets/images/IMG_3889.JPG
@@ -19,6 +21,28 @@ gallery:
     image_path: /assets/images/IMG_6579.JPG
     alt: "Server Rack"
     title: "Server Rack"
+    
+feature_row:
+  - image_path: /assets/images/IMG_3889.JPG
+    alt: "Battery Killer"
+    title: "Battery Killer"
+    excerpt: "Minimal ATTiny85 board designed to run on nearly dead AA cells."
+  - image_path: /assets/images/IMG_4239.JPG
+    alt: "WeMos"
+    title: "WeMos"
+    excerpt: "WeMos ESP8266 WiFi module"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/IMG_6579.JPG
+    title: "Server Rack"
+    excerpt: "Server and networking gear."
+  - image_path: /assets/images/IMG_4373.JPG
+    title: "Touchscreen"
+    excerpt: "Programmable touchscreen for microcontroller projects."
+  - image_path: /assets/images/IMG_3781.JPG
+    title: "No idea"
+    excerpt: "Fire hose connection hub at Red Rocks"
 ---
 ## Welcome to GitHub Pages
 
