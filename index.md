@@ -1,9 +1,7 @@
 ---
 layout: splash
-
 header:
   image: /assets/images/home-header.jpg
-  
 gallery:
   - url: /assets/images/IMG_3889.JPG
     image_path: /assets/images/IMG_3889.JPG
@@ -21,7 +19,6 @@ gallery:
     image_path: /assets/images/IMG_6579.JPG
     alt: "Server Rack"
     title: "Server Rack"
-    
 feature_row:
   - image_path: /assets/images/IMG_3889.JPG
     alt: "Battery Killer"
@@ -37,7 +34,6 @@ feature_row:
   - image_path: /assets/images/IMG_6579.JPG
     title: "Server Rack"
     excerpt: "Server and networking gear."
-
 ---
 ## Welcome to GitHub Pages
 
