@@ -1,3 +1,7 @@
 main:
-  - title: "Quick-Start Guide"
+  - title: "NavA"
+    url: /docs/quick-start-guide/
+  - title: "NavB"
+    url: /docs/quick-start-guide/
+  - title: "NavC"
     url: /docs/quick-start-guide/
