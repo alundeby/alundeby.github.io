@@ -5,16 +5,20 @@ header:
 gallery:
   - url: /assets/images/IMG_3889.JPG
     image_path: /assets/images/IMG_3889.JPG
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Battery Killer"
+    title: "Battery Killer"
   - url: /assets/images/IMG_4239.JPG
     image_path: /assets/images/IMG_4239.JPG
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "WeMos"
+    title: "WeMos"
   - url: /assets/images/IMG_4373.JPG
     image_path: /assets/images/IMG_4373.JPG
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    alt: "Touchscreen"
+    title: "Touchscreen"
+  - url: /assets/images/IMG_6579.JPG
+    image_path: /assets/images/IMG_6579.JPG
+    alt: "Server Rack"
+    title: "Server Rack"
 ---
 ## Welcome to GitHub Pages
 
