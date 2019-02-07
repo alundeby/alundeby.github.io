@@ -22,7 +22,7 @@ gallery:
     alt: "Server Rack"
     title: "Server Rack"
     
-feature_row:
+feature_row_0:
   - image_path: /assets/images/IMG_3889.JPG
     alt: "Battery Killer"
     title: "Battery Killer"
@@ -37,6 +37,7 @@ feature_row:
   - image_path: /assets/images/IMG_6579.JPG
     title: "Server Rack"
     excerpt: "Server and networking gear."
+feature_row_1:
   - image_path: /assets/images/IMG_4373.JPG
     title: "Touchscreen"
     excerpt: "Programmable touchscreen for microcontroller projects."
@@ -50,7 +51,8 @@ You can use the [editor on GitHub](https://github.com/alundeby/alundeby.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-{% include gallery id="gallery" caption="This is a sample gallery with **Markdown support**." %}
+{% include feature_row id="feature_row_0" %}
+{% include feature_row id="feature_row_1" %}
 
 ### Markdown
 
