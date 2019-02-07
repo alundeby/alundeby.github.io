@@ -1,7 +1,10 @@
 # Site Settings
-#name: Austin Lundeby
-title: Austin Lundeby
-masthead_title: Austin Lundeby
+locale                   : "en-US"
+title                    : "Project Lab"
+title_separator          : "-"
+name                     : "Austin Lundeby"
+description              : ""
+masthead_title           : "Austin Lundeby"
 
 plugins:
   - jekyll-remote-theme
