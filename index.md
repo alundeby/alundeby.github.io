@@ -23,6 +23,7 @@ feature_row_0:
   - image_path: /assets/images/IMG_3889.JPG
     alt: "Battery Killer"
     title: "Battery Killer"
+    url: "#test-link"
     excerpt: "Minimal ATTiny85 board designed to run on nearly dead AA cells."
   - image_path: /assets/images/IMG_4239.JPG
     alt: "WeMos"
