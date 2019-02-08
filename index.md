@@ -2,28 +2,13 @@
 layout: splash
 header:
   image: /assets/images/home-header.jpg
-gallery:
-  - url: /assets/images/IMG_3889.JPG
-    image_path: /assets/images/IMG_3889.JPG
-    alt: "Battery Killer"
-    title: "Battery Killer"
-  - url: /assets/images/IMG_4239.JPG
-    image_path: /assets/images/IMG_4239.JPG
-    alt: "WeMos"
-    title: "WeMos"
-  - url: /assets/images/IMG_4373.JPG
-    image_path: /assets/images/IMG_4373.JPG
-    alt: "Touchscreen"
-    title: "Touchscreen"
-  - url: /assets/images/IMG_6579.JPG
-    image_path: /assets/images/IMG_6579.JPG
-    alt: "Server Rack"
-    title: "Server Rack"
 feature_row_0:
   - image_path: /assets/images/IMG_3889.JPG
     alt: "Battery Killer"
     title: "Battery Killer"
     url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
     excerpt: "Minimal ATTiny85 board designed to run on nearly dead AA cells."
   - image_path: /assets/images/IMG_4239.JPG
     alt: "WeMos"
