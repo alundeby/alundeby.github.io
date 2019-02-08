@@ -28,11 +28,7 @@ feature_row_1:
     title: "No idea"
     excerpt: "Fire hose connection hub at Red Rocks"
 ---
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/alundeby/alundeby.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project Lab
 
 {% include feature_row id="feature_row_0" %}
 {% include feature_row id="feature_row_1" %}
