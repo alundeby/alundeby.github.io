@@ -19,8 +19,12 @@ feature_row_0:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_6579.JPG
+    alt: "Home Network & Servers"
     title: "Home Network & Servers"
-    excerpt: "Server and networking gear"
+    excerpt: "Overview of my home network setup"
+    url: "/projects/homelab/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 feature_row_1:
   - image_path: /assets/images/IMG_6372.JPG
     alt: "Wine Rack"
@@ -44,7 +48,7 @@ feature_row_1:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row_2:
-  - image_path: /assets/images/IMG_5543.JPG
+  - image_path: /assets/images/IMG_5540.JPG
     alt: "Garage Door Sensor"
     title: "Garage Door Sensor"
     excerpt: "Magnetic garage door sensor and mesh network remote indicators"
