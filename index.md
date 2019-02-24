@@ -9,7 +9,7 @@ feature_row_0:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-    excerpt: "1:144 scale Airbus A320 model with custom navigation light controller"
+    excerpt: "1:200 scale Airbus A320 model with custom navigation light controller"
   - image_path: /assets/images/IMG_4239.JPG
     alt: "WeMos"
     title: "WeMos"
