@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Lab
+title: Project Lab
 header:
   image: /assets/images/home-header.jpg
 feature_row_0:
