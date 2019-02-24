@@ -2,7 +2,7 @@
 layout: splash
 title: Project Lab
 header:
-  image: /assets/images/home-header.jpg
+  #image: /assets/images/home-header.jpg
 feature_row_0:
   - image_path: /assets/images/IMG_3107.JPG
     alt: "A320 Tree Topper"
