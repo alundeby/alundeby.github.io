@@ -1,5 +1,5 @@
 ---
-permalink: /projects/A320/
+permalink: /about/
 defaults:
   # _pages
   - scope:
