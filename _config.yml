@@ -13,3 +13,5 @@ plugins:
 remote_theme: "mmistakes/minimal-mistakes@4.15.1"
 
 include: ["_pages"]
+
+host: 0.0.0.0
