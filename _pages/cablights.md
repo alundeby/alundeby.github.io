@@ -9,7 +9,7 @@ Hardware:<br/>
 [AT42QT1010 touch sensor](https://www.adafruit.com/product/1374)<br/>
 [Integrated current meter](https://www.adafruit.com/product/574)
 
-Short press: change to state in current mode<br/>
+Short press: change to next state in current mode<br/>
 Long Press (3+ seconds): change to next mode
 
 [![normal mode](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
