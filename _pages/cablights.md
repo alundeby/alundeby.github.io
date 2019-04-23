@@ -42,7 +42,14 @@ Game Day Mode:
 
 Solid Color Mode:
 * Red
+* Orange
 * Yellow
+* Chartreuse
 * Green
+* Mint
+* Cyan
+* Light Blue
 * Blue
+* Indigo
 * Purple
+* Magenta
