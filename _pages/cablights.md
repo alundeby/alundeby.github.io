@@ -16,9 +16,9 @@ Long Press (3+ seconds): change to next mode
 
 Normal Mode:
 * Off
-* Low
-* Medium
-* High
+* Low - A warm glow, mostly used for ambiance.
+* Medium - Useful level for food prep and cleaning.
+* High - Maximum output from the LEDs, more than you need in most cases.
 
 
 Holiday Mode:
