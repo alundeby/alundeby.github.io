@@ -11,7 +11,7 @@ feature_row_0:
     url: "/projects/A320/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif
+  - image_path: https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x480.gif
     alt: "Cabinet Lights"
     title: "Cabinet Lights"
     excerpt: "Custom under-cabinet lighting with multiple modes"
