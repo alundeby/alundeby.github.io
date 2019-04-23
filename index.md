@@ -11,11 +11,11 @@ feature_row_0:
     url: "/projects/A320/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/IMG_4364.JPG
-    alt: "Kobo Hacking"
-    title: "Kobo Hacking"
-    excerpt: "Tweaking firmware to display custom content on a Kobo Touch e-ink reader"
-    url: "/projects/kobo/"
+  - image_path: https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif
+    alt: "Cabinet Lights"
+    title: "Cabinet Lights"
+    excerpt: "Custom under-cabinet lighting with multiple modes"
+    url: "/projects/cablights/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_6579.JPG
@@ -26,11 +26,11 @@ feature_row_0:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row_1:
-  - image_path: /assets/images/IMG_6372.JPG
-    alt: "Wine Rack"
-    title: "Wine Rack"
-    excerpt: "Turning a utility closet into a lighted wine rack"
-    url: "/projects/wine-rack/"
+  - image_path: /assets/images/IMG_4364.JPG
+    alt: "Kobo Hacking"
+    title: "Kobo Hacking"
+    excerpt: "Tweaking firmware to display custom content on a Kobo Touch e-ink reader"
+    url: "/projects/kobo/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_7231.JPG
@@ -82,6 +82,13 @@ feature_row_3:
     title: "In-ceiling Speakers"
     excerpt: "Cutting holes and running wires"
     url: "/projects/ceiling-speakers"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/IMG_6372.JPG
+    alt: "Wine Rack"
+    title: "Wine Rack"
+    excerpt: "Turning a utility closet into a lighted wine rack"
+    url: "/projects/wine-rack/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
