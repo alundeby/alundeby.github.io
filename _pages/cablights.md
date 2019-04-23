@@ -4,17 +4,13 @@ layout: single
 title: Cabinet Lights
 ---
 
-Controller: Particle Photon
+Hardware:  
+[Particle Photon](https://www.particle.io/)\
+[AT42QT1010 touch sensor](https://www.adafruit.com/product/1374)  
+[Integrated current meter](https://www.adafruit.com/product/574)  
 
-Touch sensor (https://www.adafruit.com/product/1374)
-
-Integrated current meter (https://www.adafruit.com/product/574)
-
-
-Short press: change to state in current mode
-
+Short press: change to state in current mode\
 Long Press (3+ seconds): change to next mode
-
 
 [![alt text](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
 
