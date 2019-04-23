@@ -2,14 +2,13 @@
 permalink: /projects/cablights/
 layout: single
 ---
-
-## Cabinet Lights
+Cabinet Lights
 
 Controller: Particle Photon
 
-Touch sensor
+Touch sensor (https://www.adafruit.com/product/1374)
 
-Integrated current meter (that turns out to be overkill)
+Integrated current meter (https://www.adafruit.com/product/574)
 
 
 Short press: change to state in current mode
