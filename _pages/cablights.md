@@ -1,8 +1,8 @@
 ---
 permalink: /projects/cablights/
 layout: single
+title: Cabinet Lights
 ---
-Cabinet Lights
 
 Controller: Particle Photon
 
@@ -16,7 +16,7 @@ Short press: change to state in current mode
 Long Press (3+ seconds): change to next mode
 
 
-[![alt text](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center width="640px"}](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
+[![alt text](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
 
 Normal Mode:
 * Off
