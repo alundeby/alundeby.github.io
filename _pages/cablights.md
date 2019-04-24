@@ -32,7 +32,7 @@ Holiday Mode:
 * Thanksgiving
 * Christmas
 
-
+[![sports mode](https://storage.googleapis.com/media.darkwire.com/cablights_sports_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_sports_640x360.gif)
 Game Day Mode:
 * Denver Broncos
 * Green Bay Packers
