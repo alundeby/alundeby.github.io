@@ -13,7 +13,6 @@ Short press: change to next state in current mode<br/>
 Long Press (3+ seconds): change to next mode
 
 [![normal mode](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
-
 Normal Mode:
 * Off
 * Low - A warm glow for ambient lighting
@@ -21,6 +20,7 @@ Normal Mode:
 * High - Maximum light output from the LEDs
 
 
+[![holiday mode](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_640x360.gif)
 Holiday Mode:
 * New Year's Day
 * Valentine's Day
@@ -32,12 +32,14 @@ Holiday Mode:
 * Thanksgiving
 * Christmas
 
+
 [![sports mode](https://storage.googleapis.com/media.darkwire.com/cablights_sports_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_sports_640x360.gif)
 Game Day Mode:
 * Denver Broncos
 * Green Bay Packers
 * Texas Longhorns
 * Colorado Avalanche
+
 
 [![solids mode](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif)
 Solid Color Mode:
