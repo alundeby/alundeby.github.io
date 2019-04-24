@@ -39,7 +39,7 @@ Game Day Mode:
 * Texas Longhorns
 * Colorado Avalanche
 
-
+[![solids mode](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif)
 Solid Color Mode:
 * Red
 * Orange
