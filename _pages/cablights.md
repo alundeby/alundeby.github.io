@@ -41,7 +41,7 @@ Game Day Mode:
 * Colorado Avalanche
 
 
-[![solids mode](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_solid_640x360.gif)
+[![solids mode](https://storage.googleapis.com/media.darkwire.com/cablights_solids_demo.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_solids_demo.gif)
 Solid Color Mode:
 * Red
 * Orange
