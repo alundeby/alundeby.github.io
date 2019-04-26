@@ -20,7 +20,7 @@ Normal Mode:
 * High - Maximum light output from the LEDs
 
 
-[![holiday mode](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_640x360.gif)
+[![holiday mode](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_demo.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_holiday_demo.gif)
 Holiday Mode:
 * New Year's Day
 * Valentine's Day
