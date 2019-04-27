@@ -12,7 +12,7 @@ Hardware:<br/>
 Short press: change to next state in current mode<br/>
 Long Press (3+ seconds): change to next mode
 
-[![normal mode](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x360.gif)
+[![normal mode](https://storage.googleapis.com/media.darkwire.com/cablights_normal_demo.gif){: .align-center }](https://storage.googleapis.com/media.darkwire.com/cablights_normal_demo.gif)
 Normal Mode:
 * Off
 * Low - A warm glow for ambient lighting
