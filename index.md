@@ -4,7 +4,7 @@ title: Project Lab
 header:
   #image: /assets/images/home-header.jpg
 feature_row_0:
-  - image_path: /assets/images/IMG_3107.JPG
+  - image_path: https://storage.googleapis.com/media.darkwire.com/a320_loop_640.gif
     alt: "A320 Tree Toppers"
     title: "A320 Tree Toppers"
     excerpt: "1:200 scale Airbus A320 model with custom navigation light controller and IR remote control"
