@@ -5,15 +5,15 @@ header:
   #image: /assets/images/home-header.jpg
 feature_row_0:
   - image_path: https://storage.googleapis.com/media.darkwire.com/a320_loop_640.gif
-    alt: "A320 Tree Toppers"
-    title: "A320 Tree Toppers"
+    alt: "Lighted A320 Models"
+    title: "Lighted A320 Models"
     excerpt: "1:200 scale Airbus A320 model with custom navigation light controller and IR remote control"
     url: "/projects/A320/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: https://storage.googleapis.com/media.darkwire.com/cablights_normal_640x480.gif
-    alt: "Cabinet Lights"
-    title: "Cabinet Lights"
+    alt: "LED Cabinet Lights"
+    title: "LED Cabinet Lights"
     excerpt: "Custom under-cabinet lighting with multiple modes"
     url: "/projects/cablights/"
     btn_label: "Read More"
