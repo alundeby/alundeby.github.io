@@ -1,9 +1,20 @@
 ---
 permalink: /projects/kobo/
+layout: single
 title: "Kobo Hacking"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin ac orci phasellus egestas. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. Dui nunc mattis enim ut tellus elementum sagittis vitae. Ut eu sem integer vitae justo eget. Duis at tellus at urna. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. 
+<img src="https://media.darkwire.com/kobo/weather.jpeg" width="640">
 
-Odio ut enim blandit volutpat maecenas. Enim nulla aliquet porttitor lacus luctus accumsan. Scelerisque felis imperdiet proin fermentum. Sed odio morbi quis commodo. Volutpat lacus laoreet non curabitur gravida arcu ac. Etiam non quam lacus suspendisse faucibus interdum. Ac tortor dignissim convallis aenean et tortor at risus viverra.
+<img src="https://media.darkwire.com/kobo/kobo_vs_kindle.jpeg" width="640">
 
+<img src="https://media.darkwire.com/kobo/bottom_left.jpeg" width="640">
+<img src="https://media.darkwire.com/kobo/bottom_right.jpeg" width="640">
+
+<img src="https://media.darkwire.com/kobo/kobo_v1.jpeg" width="640">
+<img src="https://media.darkwire.com/kobo/kobo_v2.jpeg" width="640">
+<img src="https://media.darkwire.com/kobo/logos.jpeg" width="640">
+
+<img src="https://media.darkwire.com/kobo/four_corners.jpeg" width="640">
+<img src="https://media.darkwire.com/kobo/not_quite.jpeg" width="640">
+<img src="https://media.darkwire.com/kobo/gears.jpeg" width="640">
