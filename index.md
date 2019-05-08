@@ -30,7 +30,7 @@ feature_row_1:
     alt: "WeMos Temp Sensors"
     title: "WeMos Temp Sensors"
     excerpt: "Using WeMos ESP8266 modules as wireless temperature sensors"
-    url: "/projects/wemos/"
+    url: "/projects/wemos-temp/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_3889.JPG
