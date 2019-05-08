@@ -18,14 +18,6 @@ feature_row_0:
     url: "/projects/cablights/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/IMG_6579.JPG
-    alt: "Home Network & Servers"
-    title: "Home Network & Servers"
-    excerpt: "Overview of my home network setup"
-    url: "/projects/homelab/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-feature_row_1:
   - image_path: /assets/images/IMG_4364.JPG
     alt: "Kobo Hacking"
     title: "Kobo Hacking"
@@ -33,6 +25,7 @@ feature_row_1:
     url: "/projects/kobo/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+feature_row_1:
   - image_path: /assets/images/IMG_7231.JPG
     alt: "WeMos Temp Sensors"
     title: "WeMos Temp Sensors"
@@ -45,6 +38,13 @@ feature_row_1:
     title: "Battery Killer"
     excerpt: "Custom PCB project to power an ATTiny85 from a single AA battery"
     url: "/projects/battery-killer"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/IMG_6579.JPG
+    alt: "Home Network & Servers"
+    title: "Home Network & Servers"
+    excerpt: "Overview of my home network setup"
+    url: "/projects/homelab/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row_2:
