@@ -1,5 +1,5 @@
 ---
-permalink: /projects/kobo/
+permalink: /projects/kobo
 layout: single
 title: "Kobo Hacking"
 ---
