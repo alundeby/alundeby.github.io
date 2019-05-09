@@ -1,5 +1,5 @@
 ---
-permalink: /projects/wemos-temp/
+permalink: /projects/wemos-temp
 layout: single
 ---
 
