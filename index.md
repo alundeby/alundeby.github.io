@@ -8,21 +8,21 @@ feature_row_0:
     alt: "Lighted A320 Models"
     title: "Lighted A320 Models"
     excerpt: "1:200 scale Airbus A320 model with custom navigation light controller and IR remote control"
-    url: "/projects/A320/"
+    url: "/projects/A320"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: https://media.darkwire.com/cablights/cablights_thumbnail.jpg
     alt: "LED Cabinet Lights"
     title: "LED Cabinet Lights"
     excerpt: "Custom under-cabinet lighting with multiple modes"
-    url: "/projects/cablights/"
+    url: "/projects/cablights"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_4364.JPG
     alt: "Kobo Hacking"
     title: "Kobo Hacking"
     excerpt: "Tweaking firmware to display custom content on a Kobo Touch e-ink reader"
-    url: "/projects/kobo/"
+    url: "/projects/kobo"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row_1:
@@ -30,7 +30,7 @@ feature_row_1:
     alt: "WeMos Temp Sensors"
     title: "WeMos Temp Sensors"
     excerpt: "Using WeMos ESP8266 modules as wireless temperature sensors"
-    url: "/projects/wemos-temp/"
+    url: "/projects/wemos-temp"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_3889.JPG
@@ -44,7 +44,7 @@ feature_row_1:
     alt: "Home Network & Servers"
     title: "Home Network & Servers"
     excerpt: "Overview of my home network setup"
-    url: "/projects/homelab/"
+    url: "/projects/homelab"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row_2:
