@@ -37,7 +37,7 @@ feature_row_1:
     alt: "Battery Killer"
     title: "Battery Killer"
     excerpt: "Custom PCB project to power an ATTiny85 from a single AA battery"
-    url: "/projects/battery-killer/"
+    url: "/projects/battery-killer"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_6579.JPG
