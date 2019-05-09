@@ -1,5 +1,5 @@
 ---
-permalink: /projects/cablights/
+permalink: /projects/cablights
 layout: single
 title: Cabinet Lights
 ---
