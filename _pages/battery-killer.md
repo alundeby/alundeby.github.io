@@ -1,5 +1,5 @@
 ---
-permalink: /projects/battery-killer/
+permalink: /projects/battery-killer
 layout: single
 ---
 
