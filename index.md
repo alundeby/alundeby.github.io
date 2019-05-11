@@ -56,10 +56,10 @@ feature_row_2:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/IMG_6372.JPG
-    alt: "Wine Rack"
-    title: "Wine Rack"
-    excerpt: "Turning a utility closet into a lighted wine rack"
-    url: "/projects/wine-rack/"
+    alt: "Wine Cellar"
+    title: "Wine Cellar"
+    excerpt: "Turning a utility closet into a lighted wine cellar"
+    url: "/projects/wine-cellar/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
