@@ -59,7 +59,7 @@ feature_row_2:
     alt: "Wine Cellar"
     title: "Wine Cellar"
     excerpt: "Turning a utility closet into a lighted wine cellar"
-    url: "/projects/wine-cellar/"
+    url: "/projects/wine-cellar"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
