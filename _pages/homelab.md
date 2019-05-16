@@ -24,3 +24,9 @@ APC Back-UPS ES 550
 <img src="https://media.darkwire.com/homelab/patch_panels.jpg">
 
 Each room has one or more wall plates with one coax and two Ethernet runs that connect back to this set of patch panels. The in-wall wiring is all quad-shielded RG-6 coax and Cat 6 Ethernet in order to support any present day needs as well as provide a reasonable level of future-proofing. Some people will suggest pulling optical fiber in the walls but I just don't think it's justified for home use, particularly with 2.5 and 5 gigabit options over Cat 6 becoming available.
+
+<img src="https://media.darkwire.com/homelab/fiber_feed.jpg">
+This is the inside of the telecom box used to provide CenturyLink fiber service. The black line running from the top of the box is the fiber feed from the telephone pole. The gray Cat 5e and black power cables run through the middle conduit to my garage.
+ 
+<img src="https://media.darkwire.com/homelab/adtran_router.jpg">
+The box actually contains an Adtran Total Access 352 ONT that converts the fiber into a pair of Ethernet ports and a pair of phone lines.
