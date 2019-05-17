@@ -15,7 +15,7 @@ I had seen people building joule thief circuits to use up the last remaining pow
 
 I started by selecting a single cell AA holder that would provide the PCB footprint. I wanted something with through-hole pins so that I wouldn't have any wires that could eventually break.
 
-The next step was designing a power supply. I knew that I needed a minimum of 1.8v to run the ATTiny85 controller so I opted for a MCP1640T boost regulator. It's capable of running on well below 1.0v input and has an adjustible output from 2.0 to 5.5v which was perfect for my application.
+The next step was designing a power supply. I knew that I needed a minimum of 1.8v to run the ATTiny85 controller so I opted for an MCP1640T boost regulator. It's capable of running on well below 1.0v input and has an adjustable output from 2.0 to 5.5v which was perfect for my application.
 
 <img src="https://media.darkwire.com/battery-killer/board_top.png">
 <img src="https://media.darkwire.com/battery-killer/board_bottom.png">
