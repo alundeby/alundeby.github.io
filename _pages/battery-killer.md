@@ -19,3 +19,5 @@ The next step was designing a power supply. I knew that I needed a minimum of 1.
 
 <img src="https://media.darkwire.com/battery-killer/board_top.png">
 <img src="https://media.darkwire.com/battery-killer/board_bottom.png">
+
+The notch in the PCB is actually to allow clearance for an orientation pin on the battery holder.
