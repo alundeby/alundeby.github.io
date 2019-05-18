@@ -25,7 +25,7 @@ APC Back-UPS ES 550
 This was my starting point. The in-wall wiring was done but it was up to me to deal with termination at both the wall jacks and the head end in my garage.
 
 <img src="https://media.darkwire.com/homelab/initial_pull.jpg">
-I've always liked using 3/4" plywood as a backer board. It's sturdy enough to hold any kind of gear and gives you a ton of flexibility on mounting locations. I opted to move the wire runs up near the top as they don't change much once everything is in place. I also wanted to leave space to mount my server if possible. This initial setup was just enough to get me online.
+I've always liked using 3/4" plywood as a backer board. It's sturdy enough to hold any kind of gear and gives you a ton of flexibility on mounting locations. I opted to move the wire runs up near the top as they don't change much once the patch panels are in place. I also wanted to leave space to mount my server underneath if possible. This initial setup was just enough to get me online.
 
 <img src="https://media.darkwire.com/homelab/patch_panels.jpg">
 Each room has one or more wall plates with one coax and two Ethernet runs that connect back to this set of patch panels. The in-wall wiring is all quad-shielded RG-6 coax and Cat 6 Ethernet in order to support any present day needs as well as provide a reasonable level of future-proofing. Some people will suggest pulling optical fiber in the walls but I just don't think it's justified for home use, particularly with 2.5 and 5 gigabit options over Cat 6 becoming available.
