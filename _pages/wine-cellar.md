@@ -10,10 +10,13 @@ This project was about efficient use of space more than anything else. Calling t
 The utility closet after the first coat of primer.
 
 <img src="https://media.darkwire.com/wine-cellar/mounting_holes.jpg">
-Pre-drilling the mounting holes for the towel bars.
+Pre-drilling the mounting holes for the towel bars. I opted for slightly larger gaps between rows in order to hold 1.5L or 1.75L bottles rather than going for maximum density.
 
 <img src="https://media.darkwire.com/wine-cellar/test_fit.jpg">
 Making sure everything fits as planned.
+
+<img src="https://media.darkwire.com/wine-cellar/first_rows.jpg">
+Testing out the first four rows with bottles.
 
 <img src="https://media.darkwire.com/wine-cellar/finished_before_lights.jpg">
 Twelve rows of bottle racks plus space underneath for boxes.
