@@ -19,7 +19,7 @@ Pre-drilling the mounting holes for the towel bars. I opted for slightly larger 
 Making sure everything fits as planned.
 
 <img src="https://media.darkwire.com/wine-cellar/first_rows.jpg">
-Testing out the first four rows with bottles.
+Testing out the first few rows with bottles.
 
 <img src="https://media.darkwire.com/wine-cellar/finished_before_lights.jpg">
-Twelve rows of bottle racks plus space underneath for boxes.
+Twelve rows of bottles plus space underneath for boxes.
