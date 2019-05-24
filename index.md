@@ -18,7 +18,7 @@ feature_row_0:
     url: "/projects/cablights"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/IMG_4364.JPG
+  - image_path: /assets/images/thumbnail_kobo.jpg
     alt: "Kobo Hacking"
     title: "Kobo Hacking"
     excerpt: "Tweaking firmware to display custom content on a Kobo Touch e-ink reader"
