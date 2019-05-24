@@ -4,7 +4,7 @@ title: Project Lab
 header:
   #image: /assets/images/home-header.jpg
 feature_row_0:
-  - image_path: https://media.darkwire.com/a320_loop_640.gif
+  - image_path: /assets/images/a320_loop_400px.gif
     alt: "Lighted A320 Models"
     title: "Lighted A320 Models"
     excerpt: "1:200 scale Airbus A320 model with custom navigation light controller and IR remote control"
@@ -18,7 +18,7 @@ feature_row_0:
     url: "/projects/cablights"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/thumbnail_kobo.jpg
+  - image_path: assets/images/thumbnail_kobo.jpg
     alt: "Kobo Hacking"
     title: "Kobo Hacking"
     excerpt: "Tweaking firmware to display custom content on a Kobo Touch e-ink reader"
