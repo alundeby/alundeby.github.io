@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Garage Door Sensor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/default.css">
+</head>
+<body>
+
+<div class="header">
+	<div class="header-item"><a href="/"><h2>Austin Lundeby</h2></a></div>
+	<div class="header-item"><a href="/about.html"><b>About</b></a></div>
+</div>
+
+<hr />
+
+<div class="projects">
+<div class="project">
+
+<h1>Garage Door Sensor</h1>
+
+
+        <p>Devices:
+Particle Argon and Xenon
+Magnetic garage door sensor</p>
+
+<p>My garage is situated underneath the main floor of my home and faces the alley so it’s easy to overlook when the garage door has been left open. I wanted an easy way to verify that it was shut without having to walk down three flights of stairs so I decided to build a remote indicator setup. I could have done this over wifi but Particle was in the process of releasing their new mesh devices and I thought this would be the perfect project to try them out on.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/track_sensor.jpg" width="100%" />
+At first I was planning to mount everything near the bottom of the door as that is the way I had always seen it done. After thinking about it I realized that the height didn’t matter, I just needed it to be on a flat section of track. The top of the door ended up being closer to my power supply as well as keeping the sensor up and out of the way.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/track_sensor2.jpg" width="100%" />
+The sensor comes on a mounting bracket designed to clip to the outside of the track away from the wheels.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/door_magnet.jpg" width="100%" />
+The magnetic portion is attached to the door. I selected a location where I could screw into a steel mounting plate rather than the flimsy aluminum skin of the garage door panel.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/sensor_installed.jpg" width="100%" />
+Sensor assembly installed.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/wemos_open.jpg" width="100%" />
+My first version used a Wemos module as the controller and sent broadcast UDP packets over wifi to the receivers. When the door is open the blue LED is lit.</p>
+
+<p><img src="https://media.darkwire.com/garage-mesh/wemos_closed.jpg" width="100%" />
+When the door is closed, the blue LED turns off.</p>
+
+</div>
+</div>
+
+</body>
+</html>
