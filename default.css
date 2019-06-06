@@ -19,10 +19,12 @@ hr {
 .about:link, .about:visited {
 	color: #555;
 	text-decoration: none;
+	font-weight: bold;
 }
 .about:hover, .about:active {
 	color: #555;
 	text-decoration: underline;
+	font-weight: bold;
 }
 
 .logo {
