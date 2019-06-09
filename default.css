@@ -49,6 +49,11 @@ hr {
 	text-decoration: underline;
 }
 
+.caption {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
 .articles {
 	display: flex;
 	flex-wrap: wrap;

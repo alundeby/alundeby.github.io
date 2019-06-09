@@ -15,42 +15,54 @@
 
 <hr />
 
-<div class="projects">
-<div class="project">
+<div class="articles">
 
-<h1>WeMos Temp Sensors</h1>
+	<div class="article-one">
+		<h1>WeMos Temp Sensors</h1>
+		<p>Hardware:</p>
+		<ul>
+		<li>WeMos D1 mini</li>
+		<li>DHT22 temperature sensor module</li>
+		<li>Wemos dual base board</li>
+		<li>3 x AA battery pack</li>
+		</ul>
+		<p>This project was started by my desire to find out what the actual temperatures were for my baseboard heaters at the “Low - Med - High” settings.</p>
+	</div>
 
 
-<p>Hardware:</p>
-<ul>
-  <li>WeMos D1 mini</li>
-  <li>DHT22 temperature sensor module</li>
-  <li>Wemos dual base board</li>
-  <li>3 x AA battery pack</li>
-</ul>
+	<div class="article-one">
+		<img src="https://media.darkwire.com/wemos-temp/with_oled.jpeg" width="100%"/>
 
-<p>This project was started by my desire to find out what the actual temperatures were for my baseboard heaters at the “Low - Med - High” settings.</p>
+		<p>Initially I was measuring at a location with a power outlet so I was able to just use a USB adapter for power. The second location
+		I wanted to monitor was a utility closet in my garage that didn’t have an outlet so I needed to come up with another option. I knew that
+		the WeMos module had sleep modes but it wasn’t something that I had ever implemented before.</p>
 
-<p><img src="https://media.darkwire.com/wemos-temp/with_oled.jpeg" width="100%"/></p>
+		<p>In my case I was going to be running on batteries so I wanted an absolute minimum of power consumption while the WeMos was idle. The
+		deep sleep mode was perfect as I didn’t need any sort of wifi or CPU function other than a wake up trigger from the real time clock (RTC).
+		This is amazingly simple in code:</p>
 
-<p>Initially I was measuring at a location with a power outlet so I was able to just use a USB adapter for power. The second location I wanted to monitor was a utility closet in my garage that didn’t have an outlet so I needed to come up with another option. I knew that the WeMos module had sleep modes but it wasn’t something that I had ever implemented before.</p>
+		<p><code class="highlighter-rouge">ESP.deepSleep(sleep_delay * 1000000); // microseconds</code></p>
 
-<p>In my case I was going to be running on batteries so I wanted an absolute minimum of power consumption while the WeMos was idle. The deep sleep mode was perfect as I didn’t need any sort of wifi or CPU function other than a wake up trigger from the real time clock (RTC). This is amazingly simple in code:</p>
+		<p>On the hardware side all I needed to do was connect pin D0 to RST. The RTC sends a pulse on D0 when the timer expires and triggers a
+		reset of the controller. At that point it starts the normal boot cycle and runs any code as usual. For this project I set it up to connect
+		to wifi, take a temperature reading, send it to the server, and then go back to sleep for another 15 minutes.</p>
+	</div>
 
-<p><code class="highlighter-rouge">ESP.deepSleep(sleep_delay * 1000000); // microseconds</code></p>
+	<div class="article-one">
+		<p><img src="https://media.darkwire.com/wemos-temp/top_view.jpeg" width="100%" />
+		The orange jumper wire is the reset trigger, running from D0 to RST.
+	</div>
 
-<p>On the hardware side all I needed to do was connect pin D0 to RST. The RTC sends a pulse on D0 when the timer expires and triggers a reset of the controller. At that point it starts the normal boot cycle and runs any code as usual. For this project I set it up to connect to wifi, take a temperature reading, send it to the server, and then go back to sleep for another 15 minutes.</p>
+	<div class="article-one">
+		<img src="https://media.darkwire.com/wemos-temp/side_view.jpeg" width="100%" />
+		I’m using a dual base module as it provides an easy way to mount the WeMos to the battery pack with double-sided tape.
+	</div>
 
-<p><img src="https://media.darkwire.com/wemos-temp/top_view.jpeg" width="100%" />
-The orange jumper wire is the reset trigger, running from D0 to RST.</p>
-
-<p><img src="https://media.darkwire.com/wemos-temp/side_view.jpeg" width="100%" />
-I’m using a dual base module as it provides an easy way to mount the WeMos to the battery pack with double-sided tape.</p>
-
-<p><img src="https://media.darkwire.com/wemos-temp/battery_pack.jpeg" width="100%" />
-3 x AA battery pack wired into the 5v and ground pins on the WeMos module. It works fine for the minimal current draw I need for the WeMos itself plus the DHT22 temp sensor. The device stops working when the batteries get down to around 3.5v or so.</p>
-
-</div>
+	<div class="article-one">
+		<img src="https://media.darkwire.com/wemos-temp/battery_pack.jpeg" width="100%" />
+		3 x AA battery pack wired into the 5v and ground pins on the WeMos module. It works fine for the minimal current draw I need for the WeMos
+		itself plus the DHT22 temp sensor. The device stops working when the batteries get down to around 3.5v or so.
+	</div>
 </div>
 
 </body>
