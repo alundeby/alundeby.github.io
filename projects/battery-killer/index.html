@@ -19,6 +19,7 @@
 
 	<div class="article-one">
 		<h1>Battery Killer</h1>
+		<a href="https://media.darkwire.com/battery-killer/battery_killer.jpg"><img src="https://media.darkwire.com/battery-killer/battery_killer.jpg" width="100%" /></a>
 		<p>This project was a test of several things:</p>
 		<ul>
 		<li>PCB design</li>
@@ -31,12 +32,13 @@
 	</div>
 
 	<div class="article-one">
-		<a href="https://media.darkwire.com/battery-killer/battery_killer.jpg"><img src="https://media.darkwire.com/battery-killer/battery_killer.jpg" width="100%" /></a>
-		I started by selecting a single cell AA holder that would provide the PCB footprint. I wanted something with through-hole pins so that I wouldn’t
+		<a href="https://media.darkwire.com/battery-killer/battery_holder.jpg"><img src="https://media.darkwire.com/battery-killer/battery_holder.jpg" width="100%" /></a>
+		I started by selecting a single cell AA holder that would provide the PCB footprint. I wanted something with through-hole pins so that my design wouldn’t
 		have any wires that could eventually break.
 	</div>
 
 	<div class="article-one">
+		<a href="https://media.darkwire.com/battery-killer/boost_reg.jpg"><img src="https://media.darkwire.com/battery-killer/boost_reg.jpg" width="100%" /></a>
 		The next step was designing a power supply. I knew that I needed a minimum of 1.8v to run the ATTiny85 controller so I opted for an MCP1640T boost
 		regulator. It’s capable of running on well below 1.0v input and has an adjustable output from 2.0 to 5.5v which was perfect for my application.
 	</div>
@@ -48,10 +50,30 @@
 	</div><div class="article-two">
 		<img src="https://media.darkwire.com/battery-killer/board_bottom.png" /><br>
 		<span class="caption">PCB Back</span>
+	</div><div class="article-one">
+		The notch in the PCB is actually to allow clearance for the orientation pin on the battery holder. I only needed a few boards so went with
+		<a href="https://oshpark.com/">OSH Park</a> for fabrication.
+	</div>
+
+
+	<div class="article-one">
+		<a href="https://media.darkwire.com/battery-killer/board.jpg"><img src="https://media.darkwire.com/battery-killer/board.jpg" width="100%" /></a>
+		The finished board.
 	</div>
 
 	<div class="article-one">
-		The notch in the PCB is actually to allow clearance for an orientation pin on the battery holder.
+		<a href="https://media.darkwire.com/battery-killer/lit.jpg"><img src="https://media.darkwire.com/battery-killer/lit.jpg" width="100%" /></a>
+		It's alive! I included the button so that I could program multiple modes for the LED. I just have a few basic options so far: PWM fade, blink, solid on, and off.
+	</div>
+
+	<div class="article-one">
+		<a href="https://media.darkwire.com/battery-killer/programmer.jpg"><img src="https://media.darkwire.com/battery-killer/programmer.jpg" width="100%" /></a>
+		Inline serial programming using pogo pins to connect to my <a href="https://www.sparkfun.com/products/11801">Sparkfun Tiny AVR Programmer</a>. This setup
+		gives me an easy way to update the code in just a few minutes.
+	</div>
+
+	<div class="article-one">
+		<video src="https://media.darkwire.com/battery-killer/bk_pwm_fade.mp4" width="100%" autoplay loop></video>
 	</div>
 
 </div>
