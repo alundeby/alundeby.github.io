@@ -19,6 +19,17 @@
 
 	<div class="article-one">
 		<h1>Kobo Hacking</h1>
+		I was interested in using e-ink screens to set up information displays around the house but most of the options on the market at the time were too expensive for hobby projects.
+		I looked into using a Kindle but they were already pretty locked down at that point, probably because Amazon was selling them at a loss. Kobo, on the other hand, was a much more open environment in terms
+		of hacking information and I was able to find units on eBay for less than $50.
+
+		<p>The Kobo already contained a Li-ion battery and wifi so I was in a pretty good starting position for my hardware. The difficult part was that the Kobo would run itself down in a matter of hours unless put
+		into sleep mode. The hardware has a real-time clock (RTC) watchdog timer that can be used to wake the unit from sleep after a set period of time, but unfortunately it wasn't functional with my hacked OS. I ended
+		up having to compile a custom version of the rtcwake binary using and ARM toolchain. After that was installed, the Kobo could be put into sleep mode and would only draw around 2mA. That allowed around 30 days
+		between battery charges with a one hour refresh cycle.
+	</div>
+
+	<div class="article-one">
 		<a href="https://media.darkwire.com/kobo/weather.jpeg"><img src="https://media.darkwire.com/kobo/weather.jpeg" width="100%" /></a>
 		Displaying current weather conditions. The Kobo is pulling an image from a PHP script that uses the GD graphics library to assemble the data into a custom image on demand.
 	</div>
