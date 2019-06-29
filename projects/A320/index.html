@@ -19,21 +19,6 @@
 
 	<div class="article-one">
 		<h1>Lighted A320 Models</h1>
-		<!--I think that the A320 project is easily one of my favorites. It was technically challenging for me as it incorporated a mix of model building skills, detailed electronics work, and was my first real custom circuit board design.
-
-		<p>The initial idea was to build a christmas tree topper as a gift for my brother. He's a pilot for American Airlines now but at the time was flying the A320 for US Air. At first I was planning on using a scale model kit because it would give me easy access to the interior of the fuselage and wings so that I could run wires during constrution. Unfortunately, I ran into roadblocks with both the selection of airline liveries available as well as the physical size of the assembled kits. I thought that I could work around the livery issue, but I was really set on having this be at a scale that would work as a tree topper.
-
-	<p>Plan B for the aircraft portion was a 1:200 scale pre-painted kit from HoganWings. The upside is that the right aircraft was available in the right size and even came in the livery that I was looking for. The downside is that it came out of the box with the fuselage already a solid tube and nowhere to run wires inside the wings.
-
-	<p>I really liked the idea of being able to focus on the electronics side of the project and having the model building mostly done but i needed to make sure that the kit was really going to work for my needs. The only way to be sure was to get one and do some exploratory cutting to see how much internal space I had to work with.
-
-	<p>I started cutting intot he fuselage and found out that I was generally in good shape. I had worried that it was going to be solid plastic because of th weight but it turned out that it was a hollow tube with a zinc bar running down the middle, supported by two plastic posts. The rear post was easy to remove as it was just behind the wings but the front was attached at the same location as the nose landing gear. (On the scrificial kit I ended up cutting all the way along the bottom of the fuselage but I figured out that I was able to just drill the front post on the production versions.)
-
-	<p>With the zinc weight removed I was able to measure the inner dimensions of the fuselage and start planning my circuit board. 
-
-	<p>I also needed a way to mount the finished aircraft for display as well as provide power to the lights. Why not combine the two by using a barrel plug!
-
-	<p>So now I have my circuit board and power, but need a way to mount everything securely in the fuselage and seal up the hole. I opted for 3D printing as it would let me build the exact shape I wanted to match the curves of the fuselage on the outside while also providing stucture on the inside to hold the barrel jack and circuit board. I also designed it so that inserting the wings would lock the whole assembly in place but allow it to be removed in the future if necessary.-->
 	</div>
 
 	<div class="article-one">
@@ -44,13 +29,13 @@
 
 
 	<div class="article-one">
-		<h2>Electronics</h2>
+		<h2>Electronics v1</h2>
 		<hr />
 	</div>
 
 	<div class="article-one">
 		<a href="/images/a320/first_prototype.jpg"><img src="/images/a320/first_prototype.jpg" width="100%" /></a>
-		First breadboard prototype of the idea using an Arduino Diecimila and TPIC6B595N shift register to control the LEDs.
+		My first breadboard prototype of the idea using an Arduino Diecimila and TPIC6B595N shift register to control the LEDs. At this point I was just working out the blink timing and testing the IR remote control code.
 	</div>
 
 	<div class="article-two">
@@ -58,7 +43,7 @@
 	</div><div class="article-two">
 		<a href="/images/a320/attiny85_prototype.jpg"><img src="/images/a320/attiny85_prototype.jpg" width="100%" /></a>
 	</div><div class="article-one">
-		Flashing the code to an ATTiny85 in order to save space and testing directly from a wall power supply.
+		Flashing the code to an ATTiny85 in order to save space and testing in standalone mode from a wall power supply.
 	</div>
 
 	<div class="article-two">
@@ -80,20 +65,83 @@
 		<a href="/images/a320/tweezer_clamp.jpg"><img src="/images/a320/tweezer_clamp.jpg" width="100%" /></a>
 	</div><div class="article-one">
 		The 0603 LEDs are so small and light that it is impossible to solder them without some way to clamp them in place. I ended up grinding down a pair of tweezers to the exact width
-		required to hold a pair of them back-to-back for the wingtip assemblies.
+		required to hold a pair of them back-to-back for soldering the wingtip assemblies.
 	</div>
 
+	<div class="article-one">
+		<a href="/images/a320/v1_install_size.jpg"><img src="/images/a320/v1_install_size.jpg" width="100%" /></a>
+		There is not a lot of space to work with inside of the fuselage. I had to split the ATTiny and shift register as a circuit board containing both wouldn't fit with the wing tabs inserted.
+	</div>
+
+	<!-- Move to assembly?
 	<div class="article-one">
 		<a href="/images/a320/wings_v1.jpg"><img src="/images/a320/wings_v1.jpg" width="100%" /></a>
 		With the wingtip LED assemblies complete it was time to mount them on the wings. I cut a notch to help them sit flush with the leading edge of the wing and secured them with clear epoxy. I then ran the
 		wires from each wingtip along the underside of the wing and secured it with epoxy as well.
 	</div>
+	-->
 
+	<!-- -->
 
+	<div class="article-one">
+		<h2>Electronics v2</h2>
+		<hr />
+		While the first version of the electronics assembly worked perfectly, it was bulky and I knew that I could design a more refined setup. I switched from the combination of ATTiny85 and shift register
+		to the ATTiny84 which had enough pins so that I could run all of the LEDs and the IR receiver from a single chip. This let me combine all of the electronics into a single circuit board that would fit
+		inside the tail section of the aircraft.
+	</div>
+
+	<div class="article-two">
+		<a href="/images/a320/v2_front.jpg"><img src="/images/a320/v2_front.jpg" width="100%" /></a>
+	</div><div class="article-two">
+		<a href="/images/a320/v2_back.jpg"><img src="/images/a320/v2_back.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		<p><a href="/images/a320/v2_install.jpg"><img src="/images/a320/v2_install.jpg" width="100%" /></a>
+		The entire electronics assembly (except for the IR receiver) is now small enough to fit into the tail section.
+	</div>
+
+	<!-- -->
+
+	<div class="article-one">
+		<h2>Electronics v3</h2>
+		<hr />
+		The final revision of my electronics package was functionally the same but involved designing a custom printed circuit board (PCB). I was able to switch to a surface mount version of the ATTiny84 and
+		power supply which saved some space.
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/v3_populated.jpg"><img src="/images/a320/v3_populated.jpg" width="100%" /></a>
+		Having each component name, resistor value, and wiring pin printed on the board greatly sped up the assembly process and reduced errors. Using a PCB also meant that I didn't need to hand wire the back of the board as in previous versions.
+		I could have used suface mount resistors as well, but using verical mounting gives almost the same PCB footprint and is much easier to solder by hand.
+	</div>
+
+	<div class="article-two">
+		<a href="/images/a320/v3_insert_pcb.jpg"><img src="/images/a320/v3_insert_pcb.jpg" width="100%" /></a>
+	</div><div class="article-two">
+		<a href="/images/a320/v3_install.jpg"><img src="/images/a320/v3_install.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		I included a hole in my PCB so that I could use the existing support post as a mounting location.
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/v3_programming.jpg"><img src="/images/a320/v3_programming.jpg" width="100%" /></a>
+		Loading code on the ATTiny84 is simple with an in-circuit serial programming (ICSP) interface via pads included on the circuit board. I use the same TinyISP programmer with a set of pogo-pins to
+		connect to the pads and write updated code just like flashing an Arduino over USB.
+	</div>
+
+	<!-- -->
 
 	<div class="article-one">
 		<h2>Model Kit</h2>
 		<hr />
+		My original plan was to start with a typical hobby store model kit. Aircraft kits usually have a hollow fuselage and wings which would provide space for me to run wiring and store the electronics. Unfortunately,
+		I wasn't really happy with the 1:144 scale kits as the A320 would be almost a foot long when assembled. I also wasn't able to find the right combination of airline livery and aircraft type that I wanted for my project. What
+		I ended up using instead was pre-painted 1:200 scale kits from Hogan Wings. 
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/kit_packaging.jpg"><img src="/images/a320/kit_packaging.jpg" width="100%" /></a>
+		The kits come pretty much completed and are normally ready for display after snapping together just a few parts.
 	</div>
 
 	<div class="article-two">
@@ -101,29 +149,48 @@
 	</div><div class="article-two">
 		<a href="/images/a320/zinc_weight.jpg"><img src="/images/a320/zinc_weight.jpg" width="100%" /></a>
 	</div><div class="article-one">
-		Each fuselage contains a zinc weight in order to keep the plane resting on its nose gear. I needed to figure out the minimum size hole that I had to cut to remove it, which required sacrificing a kit.
+		Each fuselage contains a zinc weight in order to keep the plane resting on its nose landing gear when not mounted on the included stand. I needed to figure out the minimum size hole that I had to cut
+		to remove it, which required sacrificing a kit.
 	</div>
 
-	<div class="article-one">
-		<a href="/images/a320/cutting_jig.jpg"><img src="/images/a320/cutting_jig.jpg" width="100%" /></a>
+	<div class="article-three">
+		<a href="/images/a320/jig_hotglue1.jpg"><img src="/images/a320/jig_hotglue1.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/jig_hotglue2.jpg"><img src="/images/a320/jig_hotglue2.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/jig_hotglue3.jpg"><img src="/images/a320/jig_hotglue3.jpg" width="100%" /></a>
+	</div><div class="article-one">
 		Once I had the dimensions for the hole worked out I built a cutting jig. I used hot glue to create the actual clamp that holds the fuselage in place. It's safe on the paint and has just enough flex when removed from
 		the MDF part of the jig that it's easy to insert and remove the fuselage.
 	</div>
 
-	<div class="article-three">
-		<a href="/images/a320/cutting_dirty.jpg"><img src="/images/a320/cutting_dirty.jpg" width="100%" /></a>
-	</div><div class="article-three">
-		<a href="/images/a320/cutting_clean.jpg"><img src="/images/a320/cutting_clean.jpg" width="100%" /></a>
-	</div><div class="article-three">
-		<a href="/images/a320/cutting_done.jpg"><img src="/images/a320/cutting_done.jpg" width="100%" /></a>
+	<div class="article-two">
+		<a href="/images/a320/dremel1.jpg"><img src="/images/a320/dremel1.jpg" width="100%" /></a>
+	</div><div class="article-two">
+		<a href="/images/a320/dremel2.jpg"><img src="/images/a320/dremel2.jpg" width="100%" /></a>
 	</div><div class="article-one">
 		My cutting tool was an adjustable speed Dremel with a router attachment so that I could set the cutting depth just above the zinc weight.
 	</div>
 
+	<div class="article-one">
+		<a href="/images/a320/weight_removed.jpg"><img src="/images/a320/weight_removed.jpg" width="100%" /></a>
+	</div>
+
+	<div class="article-two">
+		<a href="/images/a320/top_hole.jpg"><img src="/images/a320/top_hole.jpg" width="100%" /></a>
+	</div><div class="article-two">
+		<a href="/images/a320/wing_holes.jpg"><img src="/images/a320/wing_holes.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		The last two modifications were drilling a hole in the top for the LED and both sides under the wings for the wingtip wiring.
+	</div>
+	<!-- -->
 
 	<div class="article-one">
-		<h2>3D Insert</h2>
+		<h2>3D Insert &amp; Stand</h2>
 		<hr />
+		Once I had a repeatable way to cut the bottom of the plane out I knew that a 3D printed insert would be my best option for creating a replacement piece. I had originally considered resin molding as that
+		would allow an exact replica of the outside of the aircraft but discarded that idea when I started looking at the requirements for the internal portion of the design. I had already done some tinkering
+		using Shapeways SLS plastic parts and thought it would provide the right mix of detail and durability for this project.
 	</div>
 
 	<div class="article-two">
@@ -132,7 +199,7 @@
 		<a href="/images/a320/3d_insert_v1_prefit.jpg"><img src="/images/a320/3d_insert_v1_prefit.jpg" width="100%" /></a>
 	</div><div class="article-one">
 		<p><a href="/images/a320/3d_insert_v1_postfit.jpg"><img src="/images/a320/3d_insert_v1_postfit.jpg" width="100%" /></a>
-		I designed a 3D printed part to replace the missing section of fuselage. The cutout was designed to hold a barrel jack which would also serve as the mounting point for the finished aircraft.
+		I designed this part to replace the missing section of fuselage. The center cutout was designed to hold a barrel jack which would also serve as the mounting point for the finished aircraft.
 	</div>
 
 	<div class="article-two">
@@ -140,11 +207,43 @@
 	</div><div class="article-two">
 		<a href="/images/a320/3d_insert_v2_flex.jpg"><img src="/images/a320/3d_insert_v2_flex.jpg" width="100%" /></a>
 	</div><div class="article-one">
-		The first version of the insert had a tendency to get pushed into the fuselage near the tail. I created a second version that had a thin post that would keep that from happening by pushing against
-		the top of the plane from the inside. I also added slots to completely surround the wing tabs and lock the entire assembly in place once they were inserted.
+		The first version of the insert had a tendency to get pushed inside the fuselage near the tail so on the second version I added a support post to keep that from happening. I was worried
+		about the strength of such a thin element on my 3D print but the SLS parts are surprisingly strong. I added slots to completely surround the wing tabs and lock the entire assembly in place once they were inserted.
 	</div>
 
+	<div class="article-one">
+		<a href="/images/a320/v3_insert.jpg"><img src="/images/a320/v3_insert.jpg" width="100%" /></a>
+		On the third revision of the insert I reduced the amount of material surrounding the wing tabs to just what was necessary to lock things in place. I enlarged the hole for the bottom LED as it had a tendency to get
+		filled in during the printing process on the previous revision. I also improved the match of the 3D-printed curves to the outside of the fuselage in a few places to reduce prep time before painting.
+	</div>
 
+	<div class="article-one">
+		<a href="/images/a320/barrel_plug_mount.jpg"><img src="/images/a320/barrel_plug_mount.jpg" width="100%" /></a>
+		I needed a way to mount the plane and also a way to provide power so I combined them by using a standard 5.5 x 2.1mm barrel plug held in a custom 3D-printed mounting post. I added a 15&deg; angle so that you could give the plane a more
+		dynamic in-flight look by rotating it on the barrel plug.
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/stand_base.jpg"><img src="/images/a320/stand_base.jpg" width="100%" /></a>
+		I also wanted a way to mount the plane for desk display so I designed a stand to match the mounting post.
+	</div>
+
+	<div class="article-three">
+		<a href="/images/a320/quad_stands.jpg"><img src="/images/a320/quad_stands.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/quad_posts.jpg"><img src="/images/a320/quad_posts.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/quad_inserts.jpg"><img src="/images/a320/quad_inserts.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		3D printing from Shapeways is priced based on number of parts so it was cheaper for me to combine multiple copies of the same item in a single model by connecting them with thin strips of material. On arrival
+		I was able to simply snip them apart and file down any rough spots like you would with a typical model kit connected by plastic sprues.
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/stand_kit.jpg"><img src="/images/a320/stand_kit.jpg" width="100%" /></a>
+	</div>
+
+	<!-- -->
 
 	<div class="article-one">
 		<h2>Assembly</h2>
@@ -152,8 +251,53 @@
 	</div>
 
 	<div class="article-one">
-		<a href="/images/a320/v1_install_size.jpg"><img src="/images/a320/v1_install_size.jpg" width="100%" /></a>
-		There is not a lot of space to work with inside of these models. I had to split the ATTiny and shift register as neither end had enough space to hold both ICs with the wing tabs inserted.
+		<a href="/images/a320/ir_receivers.jpg"><img src="/images/a320/ir_receivers.jpg" width="100%" /></a>
+		IR receiver modules are mounted in the nose of the aircraft. Due to drilling out the plastic mounting post for the zinc weight I already have a hole for the wiring. It's just dumb luck that the IR modules fit perfectly into
+		the molded wheel well on the kit.
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/barrel_jack_assembly.jpg"><img src="/images/a320/barrel_jack_assembly.jpg" width="100%" /></a>
+		The barrel jack is mounted to the insert using epoxy. This part of the plane receives most of the physical force when inserting or removing the barrel plug so I designed the insert
+		to make sure there was enough surface area for a strong bond.
+	</div>
+
+	<div class="article-two">
+		<a href="/images/a320/top_led.jpg"><img src="/images/a320/top_led.jpg" width="100%" /></a>
+	</div><div class="article-two">
+		<a href="/images/a320/tail_led.jpg"><img src="/images/a320/tail_led.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		Top and tail LEDs mounted, using the clear epoxy as both an adhesive as well as to form a protective layer.
+	</div>
+
+	<div class="article-three">
+		<a href="/images/a320/wingtip_notch.jpg"><img src="/images/a320/wingtip_notch.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/wingtip2.jpg"><img src="/images/a320/wingtip2.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/wingtip3.jpg"><img src="/images/a320/wingtip3.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		<p><a href="/images/a320/wing_completed.jpg"><img src="/images/a320/wing_completed.jpg" width="100%" /></a>
+		The wings are built by first cutting a notch in the wingtip to contain the LED assembly. Clear epoxy is used to secure the LEDs to the wingtip and also to build up a rounded protective layer that matches the shape of the original
+		wingtip area that was removed. More epoxy is used to secure the wiring along the underside of the wing. I don't like the exposed wiring but I switched to a light gray coated wire starting with my second build and it's much
+		less visible.
+	</div>
+
+	<div class="article-three">
+		<a href="/images/a320/wires1.jpg"><img src="/images/a320/wires1.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/wires2.jpg"><img src="/images/a320/wires2.jpg" width="100%" /></a>
+	</div><div class="article-three">
+		<a href="/images/a320/wires3.jpg"><img src="/images/a320/wires3.jpg" width="100%" /></a>
+	</div><div class="article-one">
+		<p><a href="/images/a320/wires4.jpg"><img src="/images/a320/wires4.jpg" width="100%" /></a>
+		The wingtip LED connections must be run through wiring holes in the fuselage before being soldered to the board. Then the electronics are tucked inside the plane and the insert can be set into place. Finally, the wing tabs are inserted
+		into the slots which lock the insert into place and complete the assembly process. 
+	</div>
+
+	<div class="article-one">
+		<a href="/images/a320/ir_remote.jpg"><img src="/images/a320/ir_remote.jpg" width="100%" /></a>
+		IR remote control and bottom of the finished model.
 	</div>
 
 	<div class="article-one">
