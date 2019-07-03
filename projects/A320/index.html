@@ -22,7 +22,7 @@
 	</div>
 
 	<div class="article-one">
-		<video src="/images/a320_1440b.mp4" width="100%" autoplay loop muted playsinline></video>
+		<img id="a320vid" src="/images/a320/a320_1440b_one_frame.jpg" width="100%" />
 		This is the navigation light strobe sequence based on the actual Airbus A320 aircraft. Airbus uses a set pattern while most Boeing aircraft appear to have independent timing for the top, bottom, tail and wingtip strobes. 
 	</div>
 
@@ -305,38 +305,12 @@
 		The finished models on 3D-printed display stands.
 	</div>
 
-
-	<!--
-	
-	<div class="article-one">
-		<h2>Stand</h2>
-		<hr />
-	</div>
-
-
-	<div class="article-one">
-		<a href="https://media.darkwire.com/IMG_3074.JPG"><img src="https://media.darkwire.com/IMG_3074.JPG" alt="image-left" class="align-center" width="100%" /></a>
-		This is the custom circuit board, fully populated and ready to be installed inside the fuselage. I could have saved space by using surface mount parts but the overall footprint for the resistors wasn’t that different when mounting them vertically. The main IC is an ATTiny84.
-	</div>
-
-
-	<div class="article-two">
-		<a href="https://media.darkwire.com/IMG_3075.JPG"><img src="https://media.darkwire.com/IMG_3075.JPG" width="100%" /></a>
-	</div><div class="article-two">
-		<a href="https://media.darkwire.com/IMG_3086.JPG"><img src="https://media.darkwire.com/IMG_3086.JPG" width="100%" /></a>
-	</div>
-
-
-	<div class="article-one">
-		A better shot of the model, circuit board, and fuselage insert assembly. The IR receiver is visible on the nose of the plane.
-	</div>
-
-	<div class="article-one">
-		<p><a href="https://media.darkwire.com/IMG_2536.JPG"><img src="https://media.darkwire.com/IMG_2536.JPG" alt="image-left" class="align-center" width="100%" /></a></p>
-	</div>
-	-->
-
 </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script>
+        $("#a320vid").replaceWith('<video src="/images/a320_1440b.mp4" width="100%" autoplay loop muted playsinline></video>')
+</script>
 
 </body>
 </html>
